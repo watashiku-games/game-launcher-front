@@ -1,0 +1,15 @@
+.connection-manager {
+    background-color: #252525;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.status-connected { color: #4ae28a; }
+.status-error { color: #e24a4a; }
+.status-disconnected { color: #aaa; }
+.status-connecting { color: #f0ad4e; }

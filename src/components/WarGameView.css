@@ -1,0 +1,33 @@
+.war-game-view {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.players-info {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2em;
+}
+.game-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #0c4b33;
+    padding: 2rem;
+    border-radius: 12px;
+}
+.battle-zone {
+    display: flex;
+    gap: 1rem;
+}
+.game-controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.status {
+    font-size: 1.1em;
+    font-style: italic;
+}

@@ -1,0 +1,45 @@
+:root {
+	--bg-color: #1a1a1a;
+	--text-color: #f0f0f0;
+	--primary-color: #61dafb; /* React blue */
+	--border-color: #333;
+	--card-bg: #fff;
+	--card-border: #999;
+	--red-suit: #d9534f;
+	--black-suit: #292b2c;
+}
+
+body {
+	background-color: var(--bg-color);
+	color: var(--text-color);
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	margin: 0;
+	padding: 2rem;
+	text-align: center;
+}
+
+#root {
+	max-width: 900px;
+	margin: auto;
+}
+
+button {
+	padding: 0.6rem 1.2rem;
+	border: none;
+	background-color: var(--primary-color);
+	color: var(--black-suit);
+	border-radius: 8px;
+	cursor: pointer;
+	font-size: 1em;
+	font-weight: 500;
+	transition: background-color 0.2s;
+}
+
+button:hover {
+	background-color: #88eaff;
+}
+
+button:disabled {
+	background-color: #555;
+	cursor: not-allowed;
+}
